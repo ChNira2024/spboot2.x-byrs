@@ -1,0 +1,15 @@
+**OAuth2 Authentication Using facebook:::-
+---------------------------------------
+
+->Go to https://developers.facebook.com/ then select "My Apps" then select "Other" then select "consumer" then enter application some name "BMS-NEW-A"
+then click "create app" then enter your facebook password.Now application will be created.Then Click App name(Top left corner) 
+then create test app "BMS-NEW-A - Test1"(automatically create)then finish.
+=>Then go to Settings->basic then copy client-id:893323202213639 and secret id:d9a6824e48218a9fab69160f6235284d  Email:chartyniranjana2016@gmail.com
+=>use this client-id and secret-id in application.yml file in your project.
+
+**OAuth2 Authentication Using Github:::-
+------------------------------------------
+#niranjanaC2023
+->Go to https://github.com/settings/developers then Developer Setting ->then OAuth App -> create New OAuth App ->BMS-NEW-A ->select ClientID and SecretID
+->clientId: 4cc68361cfba7e6d4778  clientSecret: 3a4deb13cd893e1ae08250946cea0c32b061f01d   -> then application name: BMS-NEW-A ->
+->Homepage URL:http://localhost:1319  Authorization callback URL:http://localhost:1319  -> ok

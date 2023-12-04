@@ -1,0 +1,38 @@
+my:
+  db:
+    driver: Oracle
+    pwd: niranjana
+    url: jdbc-oracle
+    user: niranjana
+---
+spring:
+  config:
+    activate:
+      on-profile:
+      - prod
+      - prodps
+    
+my:
+  db:
+    driver: MySQL
+    pwd: niranjana1
+    url: jdbc-mysql
+    user: niranjana1
+---
+spring:
+  config:
+    activate:
+      on-profile:
+      - qa
+      - uat
+  
+my:
+  db:
+    driver: Postgress
+    pwd: niranjana2
+    url: jdbc-psg
+    user: niranjana2
+    
+#here Oracle is profile  and MysQL is for prod,prods profile and Postgress is for qa and uat profile..       
+
+#Note:we can't specify multiple environment/profile in .properties file like .yml file

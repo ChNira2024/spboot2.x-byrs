@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="ISO-8859-1">
+<title>SECURE PAGE</title>
+</head>
+<body>
+	<h2>Welcome User: </h2>
+	<span th:text="${#authentication.name}"></span> <!-- it is the Authenticated user name-->
+</body>
+</html>
